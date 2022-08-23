@@ -1,0 +1,82 @@
+#bg-video {
+  z-index: -1;
+  max-width: 110vh;
+  height: 100%;
+  position: absolute;
+  top: -24.5vh;
+  right: 0;
+  padding-top: 9rem;
+}
+
+.header-bg {
+  background-color: black;
+  background-image: url("../assets/img/bg/CONTAINER-NEGRO.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  min-height: 480px;
+  z-index: 0;
+  clip-path: polygon(calc(106vw - 2.1 * 60vh) 0, calc(106vw - 2 * 60vh) 60%, calc(106vw - 2.1 * 60vh) 100%, 0 100%, 0 0);
+  -webkit-clip-path: polygon(calc(106vw - 2.1 * 60vh) 0, calc(106vw - 2 * 60vh) 60%, calc(106vw - 2.1 * 60vh) 100%, 0 100%, 0 0);
+}
+
+.header-text {
+  margin-left: 1%;
+}
+
+.title-1 {
+  margin-bottom: -1.2vmin;
+}
+
+@media (max-height: 790px) {
+  #bg-video {
+    max-width: 123vh;
+
+  }
+}
+
+@media (max-height: 650px) {
+  #bg-video {
+    top: -23%;
+    transform: translateY(10vh);
+  }
+}
+
+@media (max-width: 1200px) {
+  #bg-video {
+    max-width: 100%;
+    top: -60%;
+    transform: translateY(50%);
+  }
+
+  .header-bg {
+    background: rgba(0, 0, 0, 0.5);
+    clip-path: none;
+    height: 100%;
+  }
+
+  .header-text {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  #bg-video {
+    display: block;
+    position: relative;
+    max-width: 93%;
+  }
+
+  .header-bg {
+    position: relative;
+    background-image: url("../assets/img/bg/CONTAINER-NEGRO.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: none;
+    height: 100%;
+  }
+}

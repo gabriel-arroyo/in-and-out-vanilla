@@ -1,0 +1,54 @@
+#gallery-top {
+  background-color: black;
+  background-image: url("../assets/img/bg/container-top.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: contain;
+  padding-top: 17rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  text-align: center;
+}
+
+#gallery-top .gallery-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+
+#gallery {
+  align-items: center;
+  background-color: black;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+#gallery-bottom {
+  background-color: black;
+  background-image: url("../assets/img/bg/container-bottom.webp");
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: contain;
+  padding-bottom: 17rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  text-align: center;
+}
+
+.gallery-item {
+  min-width: 500px;
+  align-items: center;
+  text-align: center;
+}
+
+.gallery-item .price {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gallery-item .model {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}

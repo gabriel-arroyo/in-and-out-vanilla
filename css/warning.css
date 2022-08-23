@@ -1,0 +1,17 @@
+.bg-warning {
+  background-image: url("../assets/img/bg/warning-full-bg.webp") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.logo-warning {
+  position: absolute;
+  top: 60vh;
+  left: 0%;
+  z-index: 2;
+  height: 35%;
+  margin-top: -10px;
+  margin-left: 5%;
+  transform: scaleX(-1);
+}
