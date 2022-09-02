@@ -8,7 +8,7 @@ html {
 
 .about-container {
   position: fixed;
-  top: 50%;
+  top: calc(50% + 40px);
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: orange;
@@ -40,4 +40,16 @@ html {
   color: #fff;
   text-align: center;
   margin: 0 0 2rem 0;
+}
+
+/* media query for 800px height */
+@media screen and (max-height: 800px) {
+  .about-container {
+    top: calc(50% + 5vh);
+    width: 90%;
+  }
+
+  .about-photo {
+    display: none;
+  }
 }
