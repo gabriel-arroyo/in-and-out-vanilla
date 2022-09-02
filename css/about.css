@@ -1,0 +1,43 @@
+html {
+  background: url("../assets/img/bg/Background-about.webp") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+.about-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.about-photo {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 0 2rem 0;
+}
+
+.about-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+.about-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
