@@ -37,16 +37,18 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0 ">
-          <li class="nav-item"><a class="nav-link me-lg-3  text-white" href="/index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="index.html#gallery">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="contact.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link me-lg-3  text-white" href="/inicio.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="acerca.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="inicio.html#gallery">Galería</a>
+          </li>
+          <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="contacto.html">Contacto</a></li>
         </ul>
         <div class="language">
           <i class="bi-chat-text-fill me-2 text-white"></i>
-          <select class="form-select bg-dark text-secondary w-auto" aria-label="Default select example">
-            <option value="english" selected>English</option>
-            <option value="spanish">Español</option>
+          <select class="form-select bg-dark text-secondary w-auto" aria-label="Default select example"
+            id="languagemenu" onchange="window.open(this.value, '_self');">
+            <option value="contact.html">English</option>
+            <option value="contacto.html" selected>Español</option>
           </select>
         </div>
       </div>
@@ -55,18 +57,19 @@
 
   <div class="contact-page">
     <div class="contact-container">
-      <h1 class="contact-title">Contact us</h1>
+      <h1 class="contact-title">Contacto</h1>
       <div class="flex-contact">
         <div class="data">
-          <p class="data-item address">7232 Navy St Detroit MI 48209</p>
+          <p class="data-item address">25185 Lawn Roseville Mi 48066</p>
+          <p class="data-item phone">+1 313 6413 018</p>
           <p class="data-item phone">+1 313 6875 834</p>
           <p class="data-item email">sales@in&out.com</p>
         </div>
         <div class="form">
-          <input type="text" name="Name" placeholder="Full Name" id="Name">
-          <input type="number" name="Phone" placeholder="Phone number" id="Phone">
+          <input type="text" name="Name" placeholder="Nombre completo" id="Name">
+          <input type="number" name="Phone" placeholder="Número de teléfono" id="Phone">
           <input type="email" name="Email" placeholder="Email" id="Email">
-          <button class="submit-button">Submit</button>
+          <button class="submit-button">Enviar</button>
         </div>
       </div>
     </div>
