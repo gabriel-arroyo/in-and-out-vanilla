@@ -12691,3 +12691,58 @@ footer a:focus {
     max-width: 17rem;
   }
 }
+
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.appear {
+  position: relative;
+  transform: scale(0.5);
+  opacity: 0;
+  transition: 3s all ease;
+}
+
+.appear.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+
+.spin {
+  position: relative;
+  transform: rotateY(90deg);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.spin.active {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+.spin:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.slide {
+  position: relative;
+  transform: translateX(-500px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.slide.active {
+  transform: translateX(0);
+  opacity: 1;
+}

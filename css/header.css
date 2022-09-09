@@ -148,3 +148,77 @@
     height: 100vh !important;
   }
 }
+
+.rent-button {
+  margin-left: 3%;
+  border: none;
+  padding: 1.6% 4%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: calc(0.8rem + 0.3vw);
+  animation: shake 0.8s linear infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  font-family: "EgyptienneBold";
+  min-width: 80px;
+}
+
+.rent-button:hover {
+  animation: none;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.rent-button a {
+  color: var(--bs-dark);
+  text-decoration: none;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(1deg);
+  }
+
+  20% {
+    transform: rotate(0deg);
+  }
+
+  30% {
+    transform: rotate(-1deg);
+  }
+
+  40% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  70% {
+    transform: rotate(-2deg);
+  }
+
+  80% {
+    transform: rotate(0deg);
+  }
+
+  90% {
+    transform: rotate(2deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

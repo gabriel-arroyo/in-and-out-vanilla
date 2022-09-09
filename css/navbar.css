@@ -3,12 +3,6 @@
   font-weight: bold;
 }
 
-/* media query for 960px */
-@media (max-width: 992px) {
-  #navbarResponsive {
-    margin-top: 30px;
-  }
-}
 
 .language {
   display: flex;
@@ -19,4 +13,22 @@
 .logo-img {
   height: 126px;
   top: 0 !important;
+}
+
+/* media query for 960px */
+@media (max-width: 992px) {
+  #navbarResponsive {
+    margin-top: 30px;
+  }
+
+  .logo-img {
+    height: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-img {
+    height: 80px;
+    top: 10px !important;
+  }
 }
