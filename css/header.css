@@ -9,6 +9,10 @@
   transform: translateY(50%);
 }
 
+.header-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
 
 .header-bg {
   background-color: black;
@@ -64,12 +68,15 @@
 @media (max-width: 1500px) {
   #bg-video {
     position: absolute;
-    top: calc(-10px - 20vh);
+    top: 0;
     left: 50%;
     width: 80vw;
     max-width: 900px;
-    transform: translateX(-50%) translateY(50%);
+    transform: none;
     z-index: 100;
+    padding: 0;
+    margin: 0;
+    transform: translateX(-50%) translateY(450px);
   }
 
   .header-bg {
@@ -88,12 +95,16 @@
   }
 
   .header-text {
-    margin-top: calc(-20% + 60px) !important;
-    margin-left: 50% !important;
-    transform: translateX(-50%) translateY(50%);
+    margin: 0;
     text-align: center;
     justify-content: center;
     width: 95%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .button-container {
+    justify-content: center;
   }
 
   .title-1 {
@@ -103,7 +114,7 @@
 
   .title-2 {
     text-align: center;
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .header-col {
@@ -121,16 +132,11 @@
   }
 }
 
-@media (max-width: 992px) {
-  .header-text {
-    margin-top: -41% !important;
-    transform: translateX(-50%) translateY(50%);
-  }
-}
+
 
 @media (max-width: 790px) {
   .title-2 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .welcome-text {
@@ -140,12 +146,58 @@
 
 @media (max-width: 650px) {
   #bg-video {
-    top: -29%;
-    max-width: 90%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80vw;
+    max-width: 900px;
+    transform: none;
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+    transform: translateX(-50%) translateY(420px);
   }
 
   .masthead {
     height: 100vh !important;
+  }
+
+  #gallery-bottom {
+    margin: 0%;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    width: 100%;
+  }
+
+  #gallery-bottom h3 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  #bg-video {
+    top: -29%;
+    max-width: 90%;
+  }
+
+  .title-1 {
+    font-size: 1rem;
+  }
+
+  .title-2 {
+    font-size: 3.5rem;
+    width: 100%;
+  }
+
+  .header-text {
+    width: 100%;
+    padding: 0;
+  }
+
+  .header-col {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
