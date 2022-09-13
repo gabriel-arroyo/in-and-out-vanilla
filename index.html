@@ -58,12 +58,13 @@
     </nav>
     <!-- Mashead header-->
 
-    <video muted="muted" autoplay="" loop="" id="bg-video">
-        <source
-            src="https://firebasestorage.googleapis.com/v0/b/in-and-out-5af4d.appspot.com/o/intro-reduced.mp4?alt=media&token=a3dc9edc-8b35-45d7-abb4-b32ac36fb51d"
-            type="video/mp4" />
+
+    <img onclick="togglePlay()" src="./assets/img/icons/play-pause.svg" alt="play" class="play-button">
+    <img onclick="toggleMute()" src="./assets/img/icons/mute.svg" alt="play" class="mute-button">
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="./assets/video/intro-reduced.mp4" type="video/mp4" />
     </video>
-    <header class="masthead slide" onmouseover="unmute()">
+    <header class="masthead slide" onmouseover="unmuteStart()">
         <div class="header-bg"></div>
         <div class="container px-5 header-text ">
             <div class="header-text row gx-5 align-items-center">

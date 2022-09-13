@@ -31,6 +31,15 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 });
 
+function togglePlay() {
+  var vid = document.getElementById("bg-video");
+  if (vid.paused) {
+    vid.play();
+  } else {
+    vid.pause();
+  }
+}
+
 let muted = true;
 function toggleMute() {
   var vid = document.getElementById("bg-video");
@@ -49,11 +58,14 @@ function unmute() {
 }
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
-
+let firstUnmute = false;
 const unmuteStart = async () => {
-  await delay(5000);
-  console.log("Waited 5s");
-  mute();
+  if (!firstUnmute) {
+    await delay(2000);
+    console.log("unmuted");
+    unmute();
+    firstUnmute = true;
+  }
 };
 
 function reveal() {

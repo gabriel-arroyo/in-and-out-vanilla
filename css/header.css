@@ -9,6 +9,34 @@
   transform: translateY(50%);
 }
 
+.play-button {
+  position: absolute;
+  top: 105px;
+  right: 0.2%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 200;
+  background-color: white;
+  border-radius: 50%;
+  padding-right: 2px;
+}
+
+.mute-button {
+  position: absolute;
+  top: 140px;
+  right: 0.2%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 200;
+  background-color: white;
+  border-radius: 50%;
+  padding-right: 2px;
+}
+
 .header-container {
   display: flex;
   flex-direction: column-reverse;
@@ -77,6 +105,16 @@
     padding: 0;
     margin: 0;
     transform: translateX(-50%) translateY(450px);
+  }
+
+  .play-button {
+    top: 740px;
+    right: 140px;
+  }
+
+  .mute-button {
+    top: 740px;
+    right: 100px;
   }
 
   .header-bg {
