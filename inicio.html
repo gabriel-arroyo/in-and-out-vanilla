@@ -60,7 +60,9 @@
     <!-- Mashead header-->
 
 
-    <video autoplay loop muted playsinline controls id="bg-video">
+    <img onclick="togglePlay()" src="./assets/img/icons/play-pause.svg" alt="play" class="play-button">
+    <img onclick="toggleMute()" src="./assets/img/icons/mute.svg" alt="play" class="mute-button">
+    <video autoplay loop muted playsinline id="bg-video">
         <source src="./assets/video/intro-reduced.mp4" type="video/mp4" />
     </video>
     <header class="masthead slide" onmouseover="unmuteStart()">
