@@ -56,6 +56,12 @@ function unmute() {
   vid.muted = false;
   muted = vid.muted;
 }
+function playAndUnmuted() {
+  var vid = document.getElementById("bg-video");
+  vid.muted = false;
+  muted = vid.muted;
+  vid.play();
+}
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 let firstUnmute = false;
@@ -63,7 +69,7 @@ const unmuteStart = async () => {
   if (!firstUnmute) {
     await delay(2000);
     console.log("unmuted");
-    unmute();
+    playAndUnmuted();
     firstUnmute = true;
   }
 };
