@@ -73,7 +73,7 @@
 
 @media (max-width: 800px) {
   .play-button {
-    top: 600px;
+    top: 490px;
     right: 140px;
   }
 }
@@ -103,7 +103,7 @@
 
 @media (max-width: 800px) {
   .mute-button {
-    top: 600px;
+    top: 490px;
     right: 100px;
   }
 }
@@ -142,11 +142,17 @@
 @media (max-width: 800px) {
   .header-bg {
     /* background: rgba(0, 0, 0, 0.5); */
-    height: 100vh;
+    min-height: 100vh;
+    height: 900px;
     clip-path: none;
   }
 }
 
+@media (max-width: 650px) {
+  .header-bg {
+    height: 750px !important;
+  }
+}
 
 /* ----------------------- header-text ------------------------- */
 .header-text {
@@ -265,6 +271,7 @@
 
 .welcome-text {
   font-size: 1.5rem;
+  max-width: 30vw;
 }
 
 @media screen and (max-width: 1600px) {
@@ -297,13 +304,14 @@
 /* --------------- masthead ------------------ */
 @media (max-width: 800px) {
   .masthead {
-    height: 100vh !important;
+    min-height: 100vh;
+    height: 900px !important;
   }
 }
 
 @media (max-width: 650px) {
   .masthead {
-    height: 100vh !important;
+    height: 700px !important;
   }
 }
 
