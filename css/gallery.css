@@ -32,6 +32,14 @@
   padding-right: 7vw;
 }
 
+#services {
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+
 #gallery-bottom {
   background-color: black;
   background-image: url("../assets/img/bg/container-bottom.webp");
