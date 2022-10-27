@@ -128,7 +128,7 @@
   height: 60vh;
   min-height: 480px;
   z-index: 0;
-  --middle: 36%;
+  --middle: 43%;
   --tip: calc(var(--middle) + 50px);
   clip-path: polygon(0 0,
       var(--middle) 0,
@@ -137,6 +137,12 @@
       0 100%);
   /* clip-path: polygon(106px 0, calc(106vw - 2 * 60vh) 60%, calc(106vw - 2.1 * 60vh) 100%, 0 100%, 0 0); */
   /* -webkit-clip-path: polygon(calc(106vw - 2.1 * 60vh) 0, calc(106vw - 2 * 60vh) 60%, calc(106vw - 2.1 * 60vh) 100%, 0 100%, 0 0); */
+}
+
+@media (max-width: 1000px) {
+  .header-bg {
+    --middle: 35%
+  }
 }
 
 @media (max-width: 800px) {

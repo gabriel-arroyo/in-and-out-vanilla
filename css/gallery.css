@@ -10,6 +10,15 @@
   text-align: center;
 }
 
+/* media query 690px */
+@media screen and (max-width: 690px) {
+  #services-top {
+    padding-top: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 .gallery-title {
   font-size: 3rem;
   font-weight: bold;
