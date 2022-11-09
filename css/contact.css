@@ -1,179 +1,623 @@
 html {
+  -webkit-background: white
+  -moz-background: white
+  -ms-background: white
+  -o-background: white
   background: white
 }
 
 .contact-page {
+  -webkit-background: white;
+  -moz-background: white;
+  -ms-background: white;
+  -o-background: white;
   background: white;
+  -webkit-padding: 0;
+  -moz-padding: 0;
+  -ms-padding: 0;
+  -o-padding: 0;
   padding: 0;
+  -webkit-margin: 0;
+  -moz-margin: 0;
+  -ms-margin: 0;
+  -o-margin: 0;
   margin: 0;
+  -webkit-width: 100%;
+  -moz-width: 100%;
+  -ms-width: 100%;
+  -o-width: 100%;
   width: 100%;
+  -webkit-height: 100%;
+  -moz-height: 100%;
+  -ms-height: 100%;
+  -o-height: 100%;
   height: 100%;
+  -moz-position: absolute;
+  -ms-position: absolute;
+  -o-position: absolute;
+  -webkit-position: absolute;
   position: absolute;
+  -moz-top: 0;
+  -ms-top: 0;
+  -o-top: 0;
+  -webkit-top: 0;
   top: 0;
+  -webkit-left: 0;
+  -moz-left: 0;
+  -ms-left: 0;
+  -o-left: 0;
   left: 0;
+  -webkit-z-index: 1;
+  -moz-z-index: 1;
+  -ms-z-index: 1;
+  -o-z-index: 1;
   z-index: 1;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
   display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
   flex-direction: column;
+  -webkit-padding-bottom: 100px;
+  -moz-padding-bottom: 100px;
+  -ms-padding-bottom: 100px;
+  -o-padding-bottom: 100px;
   padding-bottom: 100px;
 }
 
 .contact-container {
+  -webkit-position: relative;
+  -moz-position: relative;
+  -ms-position: relative;
+  -o-position: relative;
   position: relative;
+  -webkit-top: 350px;
+  -moz-top: 350px;
+  -ms-top: 350px;
+  -o-top: 350px;
   top: 350px;
+  -webkit-left: 50%;
+  -moz-left: 50%;
+  -ms-left: 50%;
+  -o-left: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  -webkit-background-color: white;
+  -moz-background-color: white;
+  -ms-background-color: white;
+  -o-background-color: white;
   background-color: white;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
   display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
   flex-direction: column;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
   align-items: center;
+  -webkit-padding: 2rem;
+  -moz-padding: 2rem;
+  -ms-padding: 2rem;
+  -o-padding: 2rem;
   padding: 2rem;
+  -webkit-width: 90%;
+  -moz-width: 90%;
+  -ms-width: 90%;
+  -o-width: 90%;
   width: 90%;
 }
 
 .contact-title {
+  -webkit-font-size: 2.5rem;
+  -moz-font-size: 2.5rem;
+  -ms-font-size: 2.5rem;
+  -o-font-size: 2.5rem;
   font-size: 2.5rem;
+  -webkit-font-weight: 700;
+  -moz-font-weight: 700;
+  -ms-font-weight: 700;
+  -o-font-weight: 700;
   font-weight: 700;
+  -webkit-color: #fff;
+  -moz-color: #fff;
+  -ms-color: #fff;
+  -o-color: #fff;
   color: #fff;
+  -webkit-text-align: center;
+  -moz-text-align: center;
+  -ms-text-align: center;
+  -o-text-align: center;
   text-align: center;
+  -webkit-margin: 0 0 2rem 0;
+  -moz-margin: 0 0 2rem 0;
+  -ms-margin: 0 0 2rem 0;
+  -o-margin: 0 0 2rem 0;
   margin: 0 0 2rem 0;
+  -webkit-color: orange;
+  -moz-color: orange;
+  -ms-color: orange;
+  -o-color: orange;
   color: orange;
 }
 
 .flex-contact {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
   display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
   flex-direction: row;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
   align-items: center;
+  -webkit-width: 100%;
+  -moz-width: 100%;
+  -ms-width: 100%;
+  -o-width: 100%;
   width: 100%;
 }
 
 .data {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
   display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
   flex-direction: column;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
   justify-content: center;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  -o-align-items: flex-end;
   align-items: flex-end;
+  -webkit-width: 100%;
+  -moz-width: 100%;
+  -ms-width: 100%;
+  -o-width: 100%;
   width: 100%;
+  -webkit-margin: 1rem 0;
+  -moz-margin: 1rem 0;
+  -ms-margin: 1rem 0;
+  -o-margin: 1rem 0;
   margin: 1rem 0;
+  -webkit-color: orange;
+  -moz-color: orange;
+  -ms-color: orange;
+  -o-color: orange;
   color: orange;
+  -webkit-font-size: 1.5rem;
+  -moz-font-size: 1.5rem;
+  -ms-font-size: 1.5rem;
+  -o-font-size: 1.5rem;
   font-size: 1.5rem;
+  -webkit-font-weight: 600;
+  -moz-font-weight: 600;
+  -ms-font-weight: 600;
+  -o-font-weight: 600;
   font-weight: 600;
+  -webkit-margin-right: 5rem;
+  -moz-margin-right: 5rem;
+  -ms-margin-right: 5rem;
+  -o-margin-right: 5rem;
   margin-right: 5rem;
 }
 
 .address::before {
+  -webkit-content: url("../assets/img/icons/place.svg");
+  -moz-content: url("../assets/img/icons/place.svg");
+  -ms-content: url("../assets/img/icons/place.svg");
+  -o-content: url("../assets/img/icons/place.svg");
   content: url("../assets/img/icons/place.svg");
+  -webkit-width: 20px;
+  -moz-width: 20px;
+  -ms-width: 20px;
+  -o-width: 20px;
   width: 20px;
+  -webkit-float: left;
+  -moz-float: left;
+  -ms-float: left;
+  -o-float: left;
   float: left;
+  -webkit-margin-right: 15px;
+  -moz-margin-right: 15px;
+  -ms-margin-right: 15px;
+  -o-margin-right: 15px;
   margin-right: 15px;
+  -webkit-margin-top: -2px;
+  -moz-margin-top: -2px;
+  -ms-margin-top: -2px;
+  -o-margin-top: -2px;
   margin-top: -2px;
 }
 
 .phone::before {
+  -webkit-content: url("../assets/img/icons/phone.svg");
+  -moz-content: url("../assets/img/icons/phone.svg");
+  -ms-content: url("../assets/img/icons/phone.svg");
+  -o-content: url("../assets/img/icons/phone.svg");
   content: url("../assets/img/icons/phone.svg");
+  -webkit-width: 30px;
+  -moz-width: 30px;
+  -ms-width: 30px;
+  -o-width: 30px;
   width: 30px;
+  -webkit-float: left;
+  -moz-float: left;
+  -ms-float: left;
+  -o-float: left;
   float: left;
+  -webkit-margin-right: 15px;
+  -moz-margin-right: 15px;
+  -ms-margin-right: 15px;
+  -o-margin-right: 15px;
   margin-right: 15px;
+  -webkit-margin-top: -2px;
+  -moz-margin-top: -2px;
+  -ms-margin-top: -2px;
+  -o-margin-top: -2px;
   margin-top: -2px;
 }
 
 .email::before {
+  -webkit-content: url("../assets/img/icons/mail.svg");
+  -moz-content: url("../assets/img/icons/mail.svg");
+  -ms-content: url("../assets/img/icons/mail.svg");
+  -o-content: url("../assets/img/icons/mail.svg");
   content: url("../assets/img/icons/mail.svg");
+  -webkit-width: 30px;
+  -moz-width: 30px;
+  -ms-width: 30px;
+  -o-width: 30px;
   width: 30px;
+  -webkit-float: left;
+  -moz-float: left;
+  -ms-float: left;
+  -o-float: left;
   float: left;
+  -webkit-margin-right: 15px;
+  -moz-margin-right: 15px;
+  -ms-margin-right: 15px;
+  -o-margin-right: 15px;
   margin-right: 15px;
+  -webkit-margin-top: -2px;
+  -moz-margin-top: -2px;
+  -ms-margin-top: -2px;
+  -o-margin-top: -2px;
   margin-top: -2px;
 }
 
 .form {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
   display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
   flex-direction: column;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
   align-items: center;
+  -webkit-width: 100%;
+  -moz-width: 100%;
+  -ms-width: 100%;
+  -o-width: 100%;
   width: 100%;
+  -webkit-margin: 1rem 0;
+  -moz-margin: 1rem 0;
+  -ms-margin: 1rem 0;
+  -o-margin: 1rem 0;
   margin: 1rem 0;
 }
 
 input {
+  -webkit-width: 100%;
+  -moz-width: 100%;
+  -ms-width: 100%;
+  -o-width: 100%;
   width: 100%;
+  -webkit-height: 2rem;
+  -moz-height: 2rem;
+  -ms-height: 2rem;
+  -o-height: 2rem;
   height: 2rem;
+  -webkit-font-size: 1.3rem;
+  -moz-font-size: 1.3rem;
+  -ms-font-size: 1.3rem;
+  -o-font-size: 1.3rem;
   font-size: 1.3rem;
+  -webkit-font-weight: 500;
+  -moz-font-weight: 500;
+  -ms-font-weight: 500;
+  -o-font-weight: 500;
   font-weight: 500;
+  -webkit-letter-spacing: 0.3ch;
+  -moz-letter-spacing: 0.3ch;
+  -ms-letter-spacing: 0.3ch;
+  -o-letter-spacing: 0.3ch;
   letter-spacing: 0.3ch;
+  -webkit-margin: 0.5rem 0;
+  -moz-margin: 0.5rem 0;
+  -ms-margin: 0.5rem 0;
+  -o-margin: 0.5rem 0;
   margin: 0.5rem 0;
+  -webkit-padding: 0.5rem;
+  -moz-padding: 0.5rem;
+  -ms-padding: 0.5rem;
+  -o-padding: 0.5rem;
   padding: 0.5rem;
+  -webkit-border: none;
+  -moz-border: none;
+  -ms-border: none;
+  -o-border: none;
   border: none;
+  -webkit-background-color: #ebebeb;
+  -moz-background-color: #ebebeb;
+  -ms-background-color: #ebebeb;
+  -o-background-color: #ebebeb;
   background-color: #ebebeb;
+  -webkit-color: orange;
+  -moz-color: orange;
+  -ms-color: orange;
+  -o-color: orange;
   color: orange;
 }
 
 input::placeholder {
+  -webkit-color: orange;
+  -moz-color: orange;
+  -ms-color: orange;
+  -o-color: orange;
   color: orange;
 }
 
 .submit-button {
+  -webkit-width: 100%;
+  -moz-width: 100%;
+  -ms-width: 100%;
+  -o-width: 100%;
   width: 100%;
+  -webkit-height: 3rem;
+  -moz-height: 3rem;
+  -ms-height: 3rem;
+  -o-height: 3rem;
   height: 3rem;
+  -webkit-font-size: 1rem;
+  -moz-font-size: 1rem;
+  -ms-font-size: 1rem;
+  -o-font-size: 1rem;
   font-size: 1rem;
+  -webkit-border: none;
+  -moz-border: none;
+  -ms-border: none;
+  -o-border: none;
   border: none;
+  -webkit-background-color: orange;
+  -moz-background-color: orange;
+  -ms-background-color: orange;
+  -o-background-color: orange;
   background-color: orange;
+  -webkit-color: white;
+  -moz-color: white;
+  -ms-color: white;
+  -o-color: white;
   color: white;
+  -webkit-font-weight: bold;
+  -moz-font-weight: bold;
+  -ms-font-weight: bold;
+  -o-font-weight: bold;
   font-weight: bold;
+  -webkit-cursor: pointer;
+  -moz-cursor: pointer;
+  -ms-cursor: pointer;
+  -o-cursor: pointer;
   cursor: pointer;
+  -webkit-text-transform: uppercase;
+  -moz-text-transform: uppercase;
+  -ms-text-transform: uppercase;
+  -o-text-transform: uppercase;
   text-transform: uppercase;
+  -webkit-margin-top: 1rem;
+  -moz-margin-top: 1rem;
+  -ms-margin-top: 1rem;
+  -o-margin-top: 1rem;
   margin-top: 1rem;
+  -webkit-padding: 0;
+  -moz-padding: 0;
+  -ms-padding: 0;
+  -o-padding: 0;
   padding: 0;
 }
 
 .map-container {
+  -webkit-position: relative;
+  -moz-position: relative;
+  -ms-position: relative;
+  -o-position: relative;
   position: relative;
+  -webkit-margin-top: 50vh;
+  -moz-margin-top: 50vh;
+  -ms-margin-top: 50vh;
+  -o-margin-top: 50vh;
   margin-top: 50vh;
+  -webkit-margin-bottom: 100px;
+  -moz-margin-bottom: 100px;
+  -ms-margin-bottom: 100px;
+  -o-margin-bottom: 100px;
   margin-bottom: 100px;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
   display: flex;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
   justify-content: center;
+  -webkit-background-color: white;
+  -moz-background-color: white;
+  -ms-background-color: white;
+  -o-background-color: white;
   background-color: white;
 }
 
 .map {
+  -webkit-width: 90vw;
+  -moz-width: 90vw;
+  -ms-width: 90vw;
+  -o-width: 90vw;
   width: 90vw;
+  -webkit-height: auto;
+  -moz-height: auto;
+  -ms-height: auto;
+  -o-height: auto;
   height: auto;
 }
 
 .social {
+  -webkit-margin-bottom: 2%;
+  -moz-margin-bottom: 2%;
+  -ms-margin-bottom: 2%;
+  -o-margin-bottom: 2%;
   margin-bottom: 2%;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
   display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
   flex-direction: row;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  -o-justify-content: flex-end;
   justify-content: flex-end;
 }
 
 .social img {
+  -webkit-width: 50px;
+  -moz-width: 50px;
+  -ms-width: 50px;
+  -o-width: 50px;
   width: 50px;
+  -webkit-height: 50px;
+  -moz-height: 50px;
+  -ms-height: 50px;
+  -o-height: 50px;
   height: 50px;
+  -webkit-margin-right: 30px;
+  -moz-margin-right: 30px;
+  -ms-margin-right: 30px;
+  -o-margin-right: 30px;
   margin-right: 30px;
 }
 
 /* media query for 1500px max */
 @media screen and (max-width: 1000px) {
   .flex-contact {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
     flex-direction: column;
   }
 
   .data {
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
     align-items: center;
+    -webkit-margin-right: 0;
+    -moz-margin-right: 0;
+    -ms-margin-right: 0;
+    -o-margin-right: 0;
     margin-right: 0;
+    -webkit-margin-top: 5rem;
+    -moz-margin-top: 5rem;
+    -ms-margin-top: 5rem;
+    -o-margin-top: 5rem;
     margin-top: 5rem;
   }
 
   .contact-container {
+    -webkit-margin-top: 15%;
+    -moz-margin-top: 15%;
+    -ms-margin-top: 15%;
+    -o-margin-top: 15%;
     margin-top: 15%;
   }
 
   .form {
+    -webkit-width: 50%;
+    -moz-width: 50%;
+    -ms-width: 50%;
+    -o-width: 50%;
     width: 50%;
   }
 
   .map-container {
+    -webkit-margin-top: 10px;
+    -moz-margin-top: 10px;
+    -ms-margin-top: 10px;
+    -o-margin-top: 10px;
     margin-top: 10px;
+    -webkit-margin-bottom: 100px;
+    -moz-margin-bottom: 100px;
+    -ms-margin-bottom: 100px;
+    -o-margin-bottom: 100px;
     margin-bottom: 100px;
   }
 }
@@ -191,16 +635,36 @@ input::placeholder {
 
 @media screen and (max-width: 796px) {
   .data {
+    -webkit-font-size: 1.3rem;
+    -moz-font-size: 1.3rem;
+    -ms-font-size: 1.3rem;
+    -o-font-size: 1.3rem;
     font-size: 1.3rem;
+    -webkit-margin-top: 40px;
+    -moz-margin-top: 40px;
+    -ms-margin-top: 40px;
+    -o-margin-top: 40px;
     margin-top: 40px;
   }
 
   .contact-title {
+    -webkit-font-size: 2.5rem;
+    -moz-font-size: 2.5rem;
+    -ms-font-size: 2.5rem;
+    -o-font-size: 2.5rem;
     font-size: 2.5rem;
+    -webkit-margin: 0;
+    -moz-margin: 0;
+    -ms-margin: 0;
+    -o-margin: 0;
     margin: 0;
   }
 
   .submit-button {
+    -webkit-font-size: 1rem;
+    -moz-font-size: 1rem;
+    -ms-font-size: 1rem;
+    -o-font-size: 1rem;
     font-size: 1rem;
   }
 
@@ -209,27 +673,51 @@ input::placeholder {
 /* media query for 1000px max */
 @media screen and (max-width: 660px) {
   .data {
+    -webkit-font-size: 1.4rem;
+    -moz-font-size: 1.4rem;
+    -ms-font-size: 1.4rem;
+    -o-font-size: 1.4rem;
     font-size: 1.4rem;
   }
 
   .submit-button {
+    -webkit-font-size: 1rem;
+    -moz-font-size: 1rem;
+    -ms-font-size: 1rem;
+    -o-font-size: 1rem;
     font-size: 1rem;
   }
 
   .contact-title {
+    -webkit-font-size: 2rem;
+    -moz-font-size: 2rem;
+    -ms-font-size: 2rem;
+    -o-font-size: 2rem;
     font-size: 2rem;
   }
 
   .spacer {
+    -webkit-height: 300px;
+    -moz-height: 300px;
+    -ms-height: 300px;
+    -o-height: 300px;
     height: 300px;
   }
 
   .contact-container {
+    -webkit-margin-top: 20%;
+    -moz-margin-top: 20%;
+    -ms-margin-top: 20%;
+    -o-margin-top: 20%;
     margin-top: 20%;
   }
 
   input,
   .submit-button {
+    -webkit-width: 70vw;
+    -moz-width: 70vw;
+    -ms-width: 70vw;
+    -o-width: 70vw;
     width: 70vw;
   }
 
@@ -237,49 +725,132 @@ input::placeholder {
 
 @media screen and (max-width: 400px) {
   .contact-container {
+    -webkit-margin-top: 25%;
+    -moz-margin-top: 25%;
+    -ms-margin-top: 25%;
+    -o-margin-top: 25%;
     margin-top: 25%;
   }
 }
 
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar {
+  -webkit-visibility: hidden;
+  -moz-visibility: hidden;
+  -ms-visibility: hidden;
+  -o-visibility: hidden;
   visibility: hidden;
   /* Hidden by default. Visible on click */
+  -webkit-min-width: 250px;
+  -moz-min-width: 250px;
+  -ms-min-width: 250px;
+  -o-min-width: 250px;
   min-width: 250px;
   /* Set a default minimum width */
+  -webkit-margin-left: -125px;
+  -moz-margin-left: -125px;
+  -ms-margin-left: -125px;
+  -o-margin-left: -125px;
   margin-left: -125px;
   /* Divide value of min-width by 2 */
+  -webkit-height: 4rem;
+  -moz-height: 4rem;
+  -ms-height: 4rem;
+  -o-height: 4rem;
   height: 4rem;
+  -webkit-font-size: 1.5rem;
+  -moz-font-size: 1.5rem;
+  -ms-font-size: 1.5rem;
+  -o-font-size: 1.5rem;
   font-size: 1.5rem;
+  -webkit-border: none;
+  -moz-border: none;
+  -ms-border: none;
+  -o-border: none;
   border: none;
+  -webkit-background-color: orange;
+  -moz-background-color: orange;
+  -ms-background-color: orange;
+  -o-background-color: orange;
   background-color: orange;
+  -webkit-color: white;
+  -moz-color: white;
+  -ms-color: white;
+  -o-color: white;
   color: white;
+  -webkit-font-weight: bold;
+  -moz-font-weight: bold;
+  -ms-font-weight: bold;
+  -o-font-weight: bold;
   font-weight: bold;
+  -webkit-cursor: pointer;
+  -moz-cursor: pointer;
+  -ms-cursor: pointer;
+  -o-cursor: pointer;
   cursor: pointer;
+  -webkit-text-transform: uppercase;
+  -moz-text-transform: uppercase;
+  -ms-text-transform: uppercase;
+  -o-text-transform: uppercase;
   text-transform: uppercase;
+  -webkit-text-align: center;
+  -moz-text-align: center;
+  -ms-text-align: center;
+  -o-text-align: center;
   text-align: center;
   /* Centered text */
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
   /* Rounded borders */
+  -webkit-padding: 16px;
+  -moz-padding: 16px;
+  -ms-padding: 16px;
+  -o-padding: 16px;
   padding: 16px;
   /* Padding */
+  -webkit-position: fixed;
+  -moz-position: fixed;
+  -ms-position: fixed;
+  -o-position: fixed;
   position: fixed;
   /* Sit on top of the screen */
+  -webkit-z-index: 1;
+  -moz-z-index: 1;
+  -ms-z-index: 1;
+  -o-z-index: 1;
   z-index: 1;
   /* Add a z-index if needed */
+  -webkit-left: 50%;
+  -moz-left: 50%;
+  -ms-left: 50%;
+  -o-left: 50%;
   left: 50%;
   /* Center the snackbar */
+  -webkit-bottom: 30px;
+  -moz-bottom: 30px;
+  -ms-bottom: 30px;
+  -o-bottom: 30px;
   bottom: 30px;
   /* 30px from the bottom */
 }
 
 /* Show the snackbar when clicking on a button (class added with JavaScript) */
 #snackbar.show {
+  -webkit-visibility: visible;
+  -moz-visibility: visible;
+  -ms-visibility: visible;
+  -o-visibility: visible;
   visibility: visible;
   /* Show the snackbar */
   /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
   However, delay the fade out process for 2.5 seconds */
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  -moz-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  -ms-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  -o-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 

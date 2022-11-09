@@ -1,34 +1,78 @@
 .nav-link {
+  -webkit-font-size: 1.2rem;
+  -moz-font-size: 1.2rem;
+  -ms-font-size: 1.2rem;
+  -o-font-size: 1.2rem;
   font-size: 1.2rem;
+  -webkit-font-weight: bold;
+  -moz-font-weight: bold;
+  -ms-font-weight: bold;
+  -o-font-weight: bold;
   font-weight: bold;
 }
 
 
 .language {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
   display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
   flex-direction: row;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
   align-items: center;
 }
 
 .logo-img {
+  -webkit-height: 126px;
+  -moz-height: 126px;
+  -ms-height: 126px;
+  -o-height: 126px;
   height: 126px;
+  -webkit-top: 0 !important;
+  -moz-top: 0 !important;
+  -ms-top: 0 !important;
+  -o-top: 0 !important;
   top: 0 !important;
 }
 
 /* media query for 960px */
 @media (max-width: 992px) {
   #navbarResponsive {
+    -webkit-margin-top: 30px;
+    -moz-margin-top: 30px;
+    -ms-margin-top: 30px;
+    -o-margin-top: 30px;
     margin-top: 30px;
   }
 
   .logo-img {
+    -webkit-height: 100px;
+    -moz-height: 100px;
+    -ms-height: 100px;
+    -o-height: 100px;
     height: 100px;
   }
 }
 
 @media (max-width: 600px) {
   .logo-img {
+    -webkit-height: 80px;
+    -moz-height: 80px;
+    -ms-height: 80px;
+    -o-height: 80px;
     height: 80px;
+    -webkit-top: 10px !important;
+    -moz-top: 10px !important;
+    -ms-top: 10px !important;
+    -o-top: 10px !important;
     top: 10px !important;
   }
 }
