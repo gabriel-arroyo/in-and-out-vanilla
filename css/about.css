@@ -38,10 +38,9 @@ html {
   -o-background-color: orange;
   -webkit-background-color: orange;
   background-color: orange;
-  -webkit-display: flex;
-  -moz-display: flex;
-  -ms-display: flex;
-  -o-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
   -moz-flex-direction: column;
@@ -66,10 +65,9 @@ html {
 }
 
 .about-content {
-  -webkit-display: flex;
-  -moz-display: flex;
-  -ms-display: flex;
-  -o-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: row-reverse;
   -moz-flex-direction: row-reverse;

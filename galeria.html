@@ -40,101 +40,28 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0 ">
-                    <li class="nav-item"><a class="nav-link me-lg-3  text-white" href="/index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3  text-white" href="/inicio.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="acerca.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link me-lg-3 text-white" href="contacto.html">Contacto</a></li>
                 </ul>
                 <div class="language">
                     <i class="bi-chat-text-fill me-2 text-white"></i>
                     <select class="form-select bg-dark text-secondary w-auto" aria-label="Default select example"
                         id="languagemenu" onchange="window.open(this.value, '_self');">
-                        <option value="index.html" selected>English</option>
-                        <option value="inicio.html">Español</option>
+                        <option value="index.html">English</option>
+                        <option value="inicio.html" selected>Español</option>
                     </select>
                 </div>
             </div>
         </div>
     </nav>
-    <!-- Mashead header-->
-
-
-    <img onclick="togglePlay()" src="./assets/img/icons/play-pause.svg" alt="play" class="play-button">
-    <img onclick="toggleMute()" src="./assets/img/icons/mute.svg" alt="play" class="mute-button">
-    <video autoplay loop muted playsinline id="bg-video">
-        <source src="./assets/video/intro-reduced.mp4" type="video/mp4" />
-    </video>
-    <header class="masthead slide" onmouseover="unmuteStart()">
-        <div class="header-bg"></div>
-        <div class="container px-1 header-text ">
-            <div class="header-text row gx-5 align-items-center">
-                <div class="col-md-12 col-lg-6 header-col" style="z-index: 1;">
-                    <!-- Mashead text and app badges-->
-                    <div class="mb-lg-5 mb-lg-0 text-lg-start text-white">
-                        <p class="title-1">WELCOME TO</p>
-                        <p class="title-2 lh-1 mb-3">IN & OUT</p>
-                        <p class="welcome-text">We are here to serve you, just choose your
-                            dumpster,
-                            call us and you will have it available at the agreed time.</p>
-                    </div>
-                    <div class="button-container d-flex flex-lg-row align-items-center">
-                        <button type="button" class="rent-button bg-primary text-dark"><a href="/contact.html">
-                                Rent it now
-                            </a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Quote/testimonial aside-->
-    <aside class="text-center bg-warning">
-        <div class="container px-5">
-            <div class="row gx-5 justify-content-end">
-                <div class="col-xl-8 col-md-8">
-                    <div class="h2 fs-1 text-white mb-4 text-end">NO hazardous Materials, Chemicals, Tires, Asbestos,
-                        Gas Tanks,
-                        Rock, Dirt, Brick, Stone.</div>
-
-                </div>
-            </div>
-        </div>
-    </aside>
-    <section id="services-top">
-        <h1 class="gallery-title reveal">Our Services</h1>
-        <h3 class="appear">Choose our dumpsters for any use: Construction, remodeling, house cleaning, commercial or
-            other… call or
-            text us and we
-            will respond you quickly, offering you the best container and the best price.</h3>
-    </section>
-    <section id="services">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-12 order-lg-1 mb-5 mb-lg-0">
-                <div class="container-fluid">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-2 mb-5 gallery-item spin zoom">
-                            <img src="./assets/img/containers/size1.webp" alt="">
-                            <p class="price">From $350 and up</p>
-                            <p class="model">10 yards</p>
-                        </div>
-                        <div class="col-2 mb-5 gallery-item spin">
-                            <img src="./assets/img/containers/size2.webp" alt="">
-                            <p class="price">From $390 and up</p>
-                            <p class="model">20 yards</p>
-                        </div>
-                        <div class="col-2 mb-5 gallery-item spin">
-                            <img src="./assets/img/containers/size3.webp" alt="">
-                            <p class="price">From $490 and up</p>
-                            <p class="model">30 yards</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <div class="gallery-title-services">
+    </div>
     <!-- Services -->
     <section id="gallery">
-        <h1 class="gallery-title-services reveal">Gallery</h1>
+        <h1 class="gallery-title-services reveal">Galería</h1>
         <div class="row gx-5 align-items-center">
             <div class="col-lg-12 order-lg-1 mb-5 mb-lg-0">
                 <div class="container-fluid">
@@ -162,14 +89,7 @@
             </div>
         </div>
     </section>
-    <section id="gallery-bottom">
-        <h3 class="appear">Currently, we have service at Detroit and surrounding areas. Some of Those: Taylor, Lincoln
-            Park, Southgate,
-            Melvindale,
-            Ecorse, Allen Park, Dearborn, Dearborn Heights, Romulus, Livonia, Hamtramck, Highland Park, Inkster, Warren,
-            Westland,
-            Woodhaven, Wyandotte, Southfield, Oak Park, Grosse Pointe Farms, Harper Woods.</h3>
-    </section>
+
     <!-- Footer-->
     <footer class="bg-black text-center py-5">
         <div class="container px-5">

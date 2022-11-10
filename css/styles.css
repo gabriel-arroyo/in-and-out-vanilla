@@ -14989,6 +14989,7 @@ section.cta:before {
 
 .features-device-mockup {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
@@ -15135,6 +15136,7 @@ footer a:focus {
 
 .masthead .masthead-device-mockup {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;

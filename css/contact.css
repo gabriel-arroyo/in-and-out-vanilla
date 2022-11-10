@@ -1,9 +1,17 @@
 html {
-  -webkit-background: white
-  -moz-background: white
-  -ms-background: white
-  -o-background: white
-  background: white
+  -webkit-background: white;
+  -moz-background: white;
+  -ms-background: white;
+  -o-background: white;
+  background: white;
+}
+
+body {
+  -webkit-background-color: white;
+  -moz-background-color: white;
+  -ms-background-color: white;
+  -o-background-color: white;
+  background-color: white;
 }
 
 .contact-page {
@@ -52,15 +60,15 @@ html {
   -ms-z-index: 1;
   -o-z-index: 1;
   z-index: 1;
-  -webkit-display: flex;
-  -moz-display: flex;
-  -ms-display: flex;
-  -o-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   -o-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
   -webkit-padding-bottom: 100px;
   -moz-padding-bottom: 100px;
@@ -86,9 +94,7 @@ html {
   -o-left: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-background-color: white;
   -moz-background-color: white;
@@ -99,21 +105,27 @@ html {
   -moz-display: flex;
   -ms-display: flex;
   -o-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   -o-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
-  -webkit-justify-content: center;
   -moz-justify-content: center;
   -ms-justify-content: center;
   -o-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-align-items: center;
   -moz-align-items: center;
   -ms-align-items: center;
   -o-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   -webkit-padding: 2rem;
   -moz-padding: 2rem;
@@ -165,21 +177,27 @@ html {
   -moz-display: flex;
   -ms-display: flex;
   -o-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
   -moz-flex-direction: row;
   -ms-flex-direction: row;
   -o-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-direction: row;
-  -webkit-justify-content: center;
   -moz-justify-content: center;
   -ms-justify-content: center;
   -o-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-align-items: center;
   -moz-align-items: center;
   -ms-align-items: center;
   -o-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   -webkit-width: 100%;
   -moz-width: 100%;
@@ -193,21 +211,27 @@ html {
   -moz-display: flex;
   -ms-display: flex;
   -o-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   -o-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
-  -webkit-justify-content: center;
   -moz-justify-content: center;
   -ms-justify-content: center;
   -o-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-align-items: flex-end;
   -moz-align-items: flex-end;
   -ms-align-items: flex-end;
   -o-align-items: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
   -webkit-width: 100%;
   -moz-width: 100%;
@@ -330,21 +354,27 @@ html {
   -moz-display: flex;
   -ms-display: flex;
   -o-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
   -moz-flex-direction: column;
   -ms-flex-direction: column;
   -o-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
-  -webkit-justify-content: center;
   -moz-justify-content: center;
   -ms-justify-content: center;
   -o-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-align-items: center;
   -moz-align-items: center;
   -ms-align-items: center;
   -o-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   -webkit-width: 100%;
   -moz-width: 100%;
@@ -404,6 +434,38 @@ input {
   -ms-background-color: #ebebeb;
   -o-background-color: #ebebeb;
   background-color: #ebebeb;
+  -webkit-color: orange;
+  -moz-color: orange;
+  -ms-color: orange;
+  -o-color: orange;
+  color: orange;
+}
+
+input::-webkit-input-placeholder {
+  -webkit-color: orange;
+  -moz-color: orange;
+  -ms-color: orange;
+  -o-color: orange;
+  color: orange;
+}
+
+input::-moz-placeholder {
+  -webkit-color: orange;
+  -moz-color: orange;
+  -ms-color: orange;
+  -o-color: orange;
+  color: orange;
+}
+
+input:-ms-input-placeholder {
+  -webkit-color: orange;
+  -moz-color: orange;
+  -ms-color: orange;
+  -o-color: orange;
+  color: orange;
+}
+
+input::-ms-input-placeholder {
   -webkit-color: orange;
   -moz-color: orange;
   -ms-color: orange;
@@ -483,11 +545,11 @@ input::placeholder {
   -ms-position: relative;
   -o-position: relative;
   position: relative;
-  -webkit-margin-top: 50vh;
-  -moz-margin-top: 50vh;
-  -ms-margin-top: 50vh;
-  -o-margin-top: 50vh;
-  margin-top: 50vh;
+  -webkit-margin-top: 25vh;
+  -moz-margin-top: 25vh;
+  -ms-margin-top: 25vh;
+  -o-margin-top: 25vh;
+  margin-top: 25vh;
   -webkit-margin-bottom: 100px;
   -moz-margin-bottom: 100px;
   -ms-margin-bottom: 100px;
@@ -497,11 +559,15 @@ input::placeholder {
   -moz-display: flex;
   -ms-display: flex;
   -o-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: center;
   -moz-justify-content: center;
   -ms-justify-content: center;
   -o-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   -webkit-background-color: white;
   -moz-background-color: white;
@@ -533,16 +599,21 @@ input::placeholder {
   -moz-display: flex;
   -ms-display: flex;
   -o-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
   -moz-flex-direction: row;
   -ms-flex-direction: row;
   -o-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-direction: row;
-  -webkit-justify-content: flex-end;
   -moz-justify-content: flex-end;
   -ms-justify-content: flex-end;
   -o-justify-content: flex-end;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
@@ -567,18 +638,20 @@ input::placeholder {
 /* media query for 1500px max */
 @media screen and (max-width: 1000px) {
   .flex-contact {
-    -webkit-flex-direction: column;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
     -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
   }
 
   .data {
-    -webkit-align-items: center;
     -moz-align-items: center;
     -ms-align-items: center;
     -o-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     -webkit-margin-right: 0;
     -moz-margin-right: 0;
@@ -799,10 +872,6 @@ input::placeholder {
   -o-text-align: center;
   text-align: center;
   /* Centered text */
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
   border-radius: 2px;
   /* Rounded borders */
   -webkit-padding: 16px;
@@ -848,9 +917,6 @@ input::placeholder {
   /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
   However, delay the fade out process for 2.5 seconds */
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  -moz-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  -ms-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  -o-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 

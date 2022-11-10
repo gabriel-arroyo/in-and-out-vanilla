@@ -17,6 +17,9 @@
   -moz-display: flex;
   -ms-display: flex;
   -o-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: row;
   -moz-flex-direction: row;
