@@ -127,6 +127,7 @@
   -ms-padding-right: 7vw;
   -o-padding-right: 7vw;
   padding-right: 7vw;
+  z-index: -10;
 }
 
 #services {
